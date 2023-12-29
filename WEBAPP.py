@@ -4,13 +4,7 @@ st.title('Stock Market Prediction')
 
 import pandas as pd
 import numpy as np
-import matplotlib_inline
 import matplotlib.pyplot as plt 
-import plotly.graph_objects as go
-from mpl_finance import candlestick_ochl
-from mpl_finance import candlestick_ohlc
-import plotly_express as px
-from sklearn.metrics import confusion_matrix
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 from keras.models import Sequential
