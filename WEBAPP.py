@@ -4,7 +4,6 @@ st.title('Stock Market Prediction')
 
 import pandas as pd
 import numpy as np
-import seaborn as sns
 import matplotlib_inline
 import matplotlib.pyplot as plt 
 import plotly.graph_objects as go
